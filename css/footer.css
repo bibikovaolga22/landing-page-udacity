@@ -1,0 +1,145 @@
+footer {
+    height: 13em;
+    margin-top: 8%;
+    display: flex;
+    background: #bb1e55;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+footer .box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .seven {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box.seven h2 {
+    width: 60%;
+    margin-top: 2%;
+    font-size: 30px;
+    height: 50px;
+    color: #ffffff;
+}
+
+.box.seven ul {
+    width: 60%;
+}
+
+.box.seven ul li {
+    line-height: 1.5;
+    width: 100%;
+    margin-top: 2%;
+    color: #ffffff;
+}
+
+.box.seven ul li i {
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 6px;
+}
+
+.eight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.eight .logo-footer {
+
+    width: 38%;
+    height: 80px;
+    display: flex;
+    font-size: 25px;
+    color: var(--text-color);
+    justify-content: start;
+
+}
+
+.eight .logo-footer span:nth-of-type(1) {
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.eight .logo-footer span:nth-of-type(2) {
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.box.eight ul {
+    width: 60%;
+    display: flex;
+}
+
+.box.eight ul li {
+    line-height: 1.5;
+    width: 20%;
+    cursor: pointer;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.box.eight ul li i {
+    color: var(--text-color);
+    font-size: 25px;
+    transition: var(--buttons-hover-transition)
+}
+
+.box.eight ul li i:hover {
+    color: #ffffff;
+    transition: var(--buttons-hover-transition)
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .box.seven ul {
+        width: 80%;
+    }
+
+    .box.seven h2 {
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer .seven {
+        width: 100%;
+
+    }
+
+    .eight .logo-footer {
+        justify-content: center;
+    }
+
+    footer .box {
+        width: 100%;
+
+    }
+
+    .box.eight ul {
+        width: 70%;
+        margin-bottom: 5%;
+        display: flex;
+        margin-left: 31%;
+    }
+}

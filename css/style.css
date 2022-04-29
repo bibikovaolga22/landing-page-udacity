@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import 'nav.css';
+@import 'section1.css';
+@import 'section2.css';
+@import 'section3.css';
+@import 'section4.css';
+@import 'section5.css';
+@import 'footer.css';
+
+:root {
+    --main-font: 'Shippori Antique B1', sans-serif;
+    --text-color: #f77850;
+    --buttons-hover-background: #d52865;
+    --buttons-hover-transition: linear 0.2s;
+    --buttons-hover-box-shadow: 0px 4px 6px 0px #bdb4b7;
+    --buttons-color: #bb1e55;
+    --grid-color-one: #f77850db;
+    --grid-color-two: #f7785096;
+    --grid-border-radius: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: var(--main-font);
+    list-style: none;
+    color: #343232;
+}
+
+
+
+.background {
+    z-index: 3;
+    height: 70px;
+    background-color: #ffffffbf;
+    transition: all 0.3s;
+    box-shadow: 0px 4px 8px 1px rgb(171 169 169 / 20%);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+;
+
+ 

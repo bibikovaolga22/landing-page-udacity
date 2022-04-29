@@ -1,0 +1,159 @@
+.section-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    height: 450px
+}
+
+.section-2 .box {
+    height: 450px;
+}
+
+.box.three {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box.three h2 {
+    width: 60%;
+    margin-top: 5%;
+    font-size: 30px;
+
+}
+
+
+.box.three p {
+    width: 60%;
+    margin: 5%;
+}
+
+.box.three button {
+    width: 25%;
+    height: 50px;
+    margin: 2%;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid var(--buttons-color);
+    background-color: #ffffff;
+}
+
+.box.three button:hover {
+    box-shadow: var(--buttons-hover-box-shadow);
+    transition: var(--buttons-hover-transition);
+}
+
+.box.four {
+    width: 63%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.box.four h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+}
+
+.four ul {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.four ul li {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.four ul li span {
+    width: 100%;
+    font-size: 85px;
+    font-family: 'Anton', sans-serif;
+    color: var(--text-color);
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .box.three {
+        width: 60%;
+
+    }
+
+    .box.three p {
+        width: 93%;
+        margin: 2%;
+    }
+
+    .box.three button {
+        width: 40%;
+    }
+
+    .box.four {
+        width: 45%;
+        height: 310px;
+    }
+
+    .box.four h3 {
+        font-size: 20px;
+    }
+
+    .four ul li span {
+        font-size: 47px;
+    }
+
+    .four ul li {
+        width: 29%;
+    }
+
+    .section-2 {
+        height: 350px;
+    }
+
+    .box.three h2 {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .box.three {
+        width: 100%;
+    }
+
+    .section-2 {
+        height: auto;
+    }
+
+    .section-2 .box {
+        height: auto;
+    }
+
+    .box.four {
+        width: 100%;
+        height: auto;
+    }
+
+    .four ul {
+
+        height: 210px;
+
+    }
+
+ 
+
+}
