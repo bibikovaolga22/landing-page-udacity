@@ -20,3 +20,6 @@ It is fully responsive.
 
 - HTML, Css, JavaScript
 - Grid, Flexbox
+
+
+![Alt text](images-main/page-screenshot.png "a title")
